@@ -1,1 +1,7 @@
 # Tarea
+El código comienza importando las clases necesarias de JavaFX para la construcción de la interfaz gráfica de usuario. Luego, se define la clase principal Main, que extiende Application, indicando que es una aplicación JavaFX. Dentro de esta clase, se sobrescribe el método start(), que es donde se define la interfaz de usuario y se inicializa la aplicación.
+Se crean componentes como TextField, ListView, Label y ImageView para mostrar y manipular datos en la interfaz. Se cargan imágenes desde el sistema de archivos local utilizando la clase Image. Estas imágenes se asignan a las etiquetas Label para mostrarlas en la interfaz.
+Las propiedades de los componentes, como el ancho, alto y contenido inicial de los TextField, así como el tamaño de las imágenes en los ImageView, se configuran según sea necesario.
+El contenedor principal utilizado es AnchorPane. Se establecen las ubicaciones de los componentes, como TextField, ListView y Label, utilizando anclas en el AnchorPane.
+Finalmente, se crea una escena con el AnchorPane como su raíz y se configuran dimensiones fijas para la ventana principal. Se establece el título de la ventana principal y se muestra la interfaz de usuario llamando al método show() del escenario principal Stage. El método main() se utiliza para iniciar la aplicación JavaFX llamando al método launch().
+![programa](https://github.com/CentenoTapia/Tarea/assets/168596867/18483128-89f9-4c7e-b3f5-3a1323516846)
